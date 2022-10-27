@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="">
+        <div class="score"><span class="user">0</span> - <span class="comp">0</span></div>
+        <div class="game">
+            <div id="player">
+                <h1>You</h1>
+                <div class="hands">
+                    <img src="assets/rock-hand.png" alt="" class="hand" id="user-rock">
+                    <img src="assets/paper-hand.png" alt="" class="hand" id="user-paper">
+                    <img src="assets/scissors-hand.png" alt="" class="hand" id="user-scissor">
+                </div>
+                
+                <div class="buttons">
+                    <img src="assets/rock-logo.png" alt="" id="rock">
+                    <img src="assets/paper-logo.png" alt="" id="paper">
+                    <img src="assets/scissors-logo.png" alt="" id="scissor">
+                </div>
+            </div>
+            <img src="assets/vs.png" alt="" class="vs">
+            <div id="comp">
+                <h1>Comp</h1>
+                <div class="hands">
+                    <img src="assets/rock-hand.png" alt="" class="hand" id="comp-rock" >
+                    <img src="assets/paper-hand.png" alt="" class="hand" id="comp-paper" >
+                    <img src="assets/scissors-hand.png" alt="" class="hand" id="comp-scissor" >
+                </div>
+                <div class="buttons hide">
+                    <img src="assets/rock-logo.png" alt="" id="rock">
+                    <img src="assets/paper-logo.png" alt="" id="paper">
+                    <img src="assets/scissors-logo.png" alt="" id="scissor">
+                </div>
+            </div>
+        </div>
+        <div class="result">
+            <h1><span id="winner">_</span> won the game!</h1>
+            <div id="play-again">Play Again!</div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
